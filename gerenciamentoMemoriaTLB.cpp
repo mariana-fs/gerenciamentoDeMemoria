@@ -1,3 +1,7 @@
+///A lógica do programa tá em teoria implementada. 
+///Algum problema de implementação e utilização do container queue não deve está corretado
+///mas não consegui encontrar o problema.
+
 #include <iostream>
 #include <string>
 #include <fstream>
