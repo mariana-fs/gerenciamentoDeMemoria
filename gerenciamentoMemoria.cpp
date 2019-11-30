@@ -7,7 +7,7 @@ using namespace std;
 void impimirTabelaDePaginas(bool tabelaPaginas[], int n);
 
 int main(){
-    bool tabelaPagina[2048] = {false};
+    bool tabelaPagina[1024] = {false};
     int acertoPagina = 0;
     int falhaPagina = 0;
     int acessoMemoria = 0;
@@ -33,7 +33,7 @@ int main(){
         n++;
     }
     for(int i=0; i<n;i++){
-        pagina = endereco[i]/32;
+        pagina = endereco[i]/64;
         acessoMemoria++;
         if(tabelaPagina[pagina] == true){
             acertoPagina++;
